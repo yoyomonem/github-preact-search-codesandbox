@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900");
+
+html, body {
+	font: 14px/1.21 Roboto, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, sup, .search {
+	text-align: center;
+}
+
+.result {
+	padding: 10px;
+	margin: 10px;
+	background: white;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
